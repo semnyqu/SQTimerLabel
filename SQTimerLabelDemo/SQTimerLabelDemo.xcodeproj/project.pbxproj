@@ -101,7 +101,7 @@
 				A59EFD74202C393200AF134C /* MZTLViewController.m */,
 			);
 			name = Classes;
-			path = MZTimerLabelDemo;
+			path = SQTimerLabelDemo;
 			sourceTree = "<group>";
 		};
 		3D31ED1C180E7BD10085D5D4 /* Resources */ = {
@@ -113,7 +113,7 @@
 				3D31ECED180E7A570085D5D4 /* Supporting Files */,
 			);
 			name = Resources;
-			path = MZTimerLabelDemo;
+			path = SQTimerLabelDemo;
 			sourceTree = "<group>";
 		};
 		3D31ED1D180E7C480085D5D4 /* SQTimerLabel */ = {
@@ -142,7 +142,7 @@
 			dependencies = (
 			);
 			name = SQTimerLabelDemo;
-			productName = MZTimerLabelDemo;
+			productName = SQTimerLabelDemo;
 			productReference = 3D31ECE3180E7A570085D5D4 /* SQTimerLabelDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
