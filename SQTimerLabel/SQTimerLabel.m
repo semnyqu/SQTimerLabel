@@ -301,7 +301,7 @@
 -(void)updateLabel{
 
     NSTimeInterval timeDiff = [[NSDate date] timeIntervalSinceDate:startCountDate];
-    NSDate *timeToShow = [NSDate date];
+    NSDate *timeToShow = nil;//[NSDate date];
     BOOL timerEnded = false;
     
     /***SQTimerLabelTypeStopWatch Logic***/
