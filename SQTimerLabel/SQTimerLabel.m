@@ -299,8 +299,11 @@
 
 
 -(void)updateLabel{
-
-    NSTimeInterval timeDiff = [[NSDate date] timeIntervalSinceDate:startCountDate];
+    //NSTimeInterval timeDiff = [[NSDate date] timeIntervalSinceDate:startCountDate];
+    NSTimeInterval timeDiff = 0;
+    if (startCountDate) {
+        timeDiff = [[NSDate date] timeIntervalSinceDate:startCountDate];
+    }
     NSDate *timeToShow = nil;//[NSDate date];
     BOOL timerEnded = false;
     

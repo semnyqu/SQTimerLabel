@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "SQTimerLabel"
-  s.version      = "0.0.2"
+  s.version      = "0.0.3"
   s.summary      = "A handy class to use UILabel as a countdown timer or stopwatch just like in Apple Clock App."
   s.description  = "SQTimerLabel is a UILabel subclass, which is a handy way to use UILabel as a countdown timer or stopwatch just like that in Apple Clock App with just 2 lines of code. SQTimerLabel also provides delegate method for you to define the action when the timer finished."
                  
